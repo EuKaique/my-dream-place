@@ -2,6 +2,8 @@
 
 import { Banner } from "./components/Banner";
 import { Header } from "./components/Header";
+import { Info } from "./components/Info";
+import { VacationCards } from "./components/VacationCards";
 import './global.style.css'
 
 export default function Home() {
@@ -9,6 +11,8 @@ export default function Home() {
       <>
         <Header />
         <Banner />
+        <Info />
+        <VacationCards />
       </>
   )
 }
