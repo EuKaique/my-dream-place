@@ -8,8 +8,8 @@ export function Info(){
                 <DangerIcon />
             </IconContainer>
             <MessageContainer>
-                <h4>Check the latest COVID-19 restrictions before you travel. </h4>
-                <a href="#">Learn more</a>
+                <h4>Verifique as últimas restrições do COVID-19 antes de viajar.</h4>
+                <a href="#">Saiba mais</a>
             </MessageContainer>
         </Container>
     )

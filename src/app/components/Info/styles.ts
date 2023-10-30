@@ -14,6 +14,7 @@ export const IconContainer = styled.div``
 
 export const MessageContainer = styled.div`
     display: flex;
+    gap: 0.5rem;
     h4{
         color: #1E1E1E;
         font-weight: 500;

@@ -9,28 +9,28 @@ import { Card, CardsContainer, Container } from "./styles"
 export function VacationCards(){
     return(
         <Container>
-            <h2>Enjoy your dream vacation</h2>
-            <p>Plan an book our perfect trip with expert advice, travel tips, destination information and inspiration from us</p>
+            <h2>Aproveite as férias dos sonhos</h2>
+            <p>Planeje e reserve uma viagem perfeita com conselhos de especialistas, dicas de viagem, informações sobre destinos e com nossa inspiração</p>
             <CardsContainer>
                 <Card>
                     <Image src={Australia} alt="Australia" />
-                    <h4>Australia</h4>
-                    <span>2246 properties</span>
+                    <h4>Austrália</h4>
+                    <span>2246 propriedades</span>
                 </Card>
                 <Card>
                     <Image src={Japao} alt="Japão" />
                     <h4>Japão</h4>
-                    <span>1278 properties</span>
+                    <span>1278 propriedades</span>
                 </Card>
                 <Card>
                     <Image src={NovaZelandia} alt="Nova Zelândia" />
                     <h4>Nova Zelândia</h4>
-                    <span>480 properties</span>
+                    <span>480 propriedades</span>
                 </Card>
                 <Card>
                     <Image src={Grecia} alt="Grécia" />
                     <h4>Grécia</h4>
-                    <span>320 properties</span>
+                    <span>320 propriedades</span>
                 </Card>
             </CardsContainer>
         </Container>
