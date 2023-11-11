@@ -32,4 +32,10 @@ export const Card = styled.div`
         transform: scale(1.1);
         transition: 0.4s;
     }
+
+    @media (min-width: 1920px){
+        img{
+            width: 100%;
+        }
+    }
 `

@@ -19,7 +19,12 @@ export const BannerContainer = styled.div`
             font-weight: 600;
         }
     }
-
+    @media (min-width: 1920px) {
+        img{
+            width: 100%;
+            height: 40rem;
+        }
+    }
 `
 
 export const FormSearchContainer = styled.div`
@@ -38,4 +43,8 @@ export const FormSearchContainer = styled.div`
         -webkit-box-shadow: 0px 11px 11px -4px rgba(182,182,204,1);
         -moz-box-shadow: 0px 11px 11px -4px rgba(182,182,204,1);
     box-shadow: 0px 11px 11px -4px rgba(182,182,204,1);
+
+    @media (min-width: 1920px) {
+        top: 75%;
+    }
 `

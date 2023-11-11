@@ -18,16 +18,31 @@ export const CardsContainer = styled.div`
     display: flex;
     gap: 2rem;
     margin-top: 1.5rem;
+    width: 100%;
+
+    @media (min-width: 1920px) {
+        gap: 4rem;
+    }
 `
 export const Card = styled.div`
     width: 23%;
     height: auto;
-
+    
     h4{
         font-size: 1rem;
         font-weight: 600;
         margin-top: 0.5rem;
     }
+    
+    @media (min-width: 1920px){
+        img{
+            width: 100%;
+        }
+        h4{
+            margin-top: 2rem;
+        }
+    }
+
     span{
         font-size: 0.9rem;
     }

@@ -31,6 +31,11 @@ export const CardsContainer = styled.div`
         font-weight: 300;
     }
 
+    @media (min-width: 1920px){
+        gap: 3rem;
+    }
+
+
 `
 export const Card = styled.div`
     width: 31.96%;
@@ -40,5 +45,11 @@ export const Card = styled.div`
         transition: 0.4s;
         filter: brightness(0.6);
         cursor: pointer;
+    }
+
+    @media (min-width: 1920px){
+        img{
+            width: 100%;
+        }
     }
 `

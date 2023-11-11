@@ -2,6 +2,7 @@
 
 import { Banner } from "./components/Banner";
 import { BannerSecondary } from "./components/BannerSecondary";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Info } from "./components/Info";
 import { InspirationCards } from "./components/InspirationCards";
@@ -19,6 +20,7 @@ export default function Home() {
         <InspirationCards />
         <PopularHotels />
         <BannerSecondary />
+        <Footer />
       </>
   )
 }

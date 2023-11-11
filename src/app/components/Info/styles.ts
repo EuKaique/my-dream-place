@@ -9,6 +9,10 @@ export const Container = styled.div`
     padding: 1.25rem;
     width: 90%;
     margin: 2rem auto;
+
+    @media (min-width: 1920px) {
+        margin-top: -2.5rem;
+    }
 `
 export const IconContainer = styled.div``
 

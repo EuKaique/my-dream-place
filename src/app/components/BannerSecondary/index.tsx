@@ -9,7 +9,7 @@ import MobileImage from '../../assets/images/mobile-image.png'
 export function BannerSecondary(){
     return(
         <Container>
-            <Image src={BannerImage} alt="" />
+            <Image className="banner-class" src={BannerImage} alt="" />
             <div>
                 <h2>Baixe o aplicativo móvel para cupons de bônus e códigos de viagem</h2>
                 <Button background="blue" color="white" text="Baixe o aplicativo móvel" border="blue"/>

@@ -11,7 +11,7 @@ export function Header(){
             <Box>
                 <Link href='/'>
                     <AirplaneIcon />
-                    <Heading2>minha Viagem</Heading2>
+                    <Heading2>Meu lugar dos sonhos</Heading2>
                 </Link>
             </Box>
             <Box>
