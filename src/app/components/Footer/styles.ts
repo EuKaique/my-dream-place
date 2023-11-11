@@ -19,10 +19,14 @@ export const TitleContainer = styled.div`
 export const FooterContainer = styled.div`
     margin-top: 4rem;
     margin-bottom: 2rem;
-    padding: 0 2rem;
+    padding: 0 4rem;
     display: grid;
     grid-template-columns: 1fr repeat(2, 0.8fr) repeat(2, 1.2fr);
     column-gap: 1rem;
+
+    @media (min-width: 2560px){
+        padding: 0 9rem;
+    }
 `
 export const LogoColumn = styled.div`
     p{
